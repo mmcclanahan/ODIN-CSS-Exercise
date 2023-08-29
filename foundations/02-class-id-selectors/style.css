@@ -1,0 +1,22 @@
+/*All odd lass: a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback
+* **The second ID**: blue text and a font size of 36px
+* **The third Class**: in addition to the styles for all odd numbered elements, add a font size of 24px
+* **The fourth ID**: a light green background, a font size of 24px, and bold
+
+*/
+#second{
+font-size: 36px;
+color: rgb(0, 80, 254);
+}
+#fourth{
+    background-color: rgb(14, 249, 30);
+    font-weight: bold;
+}
+.odd{
+    background-color: rgb(250, 7, 96);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.font24{
+    font-size: 24px;
+}
